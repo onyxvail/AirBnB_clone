@@ -1,0 +1,64 @@
+.filters {
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+.filters button {
+    font-size: 18px;
+    background-color: #ff5a5f;
+    color: #ffffff;
+    height: 48px;
+    width: 20%;
+    border: none;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: 30px;
+}
+.filters button:hover {
+    opacity: 90%;
+}
+.filters .locations,
+.filters .amenities {
+    height: 100%;
+    width: 25%;
+    display: inline-block;
+}
+.filters .locations {
+    border-right: 1px solid #dddddd;
+}
+.filters .locations h3,
+.filters .amenities h3 {
+    font-weight: 600;
+    margin: 18px auto auto 50px;
+}
+.filters .locations h4,
+.filters .amenities h4 {
+    font-weight: 400;
+    font-size: 14px;
+    margin: auto auto 17px 50px;
+}
+.popover li {
+    list-style-type: none;
+}
+.popover li li,
+.popover li {
+    margin: 10px;
+}
+.popover {
+    border: 1px solid #dddddd;
+    background-color: #fafafa;
+    padding: 20px;
+    position: sticky;
+    display: none;
+}
+.locations:hover .popover,
+.amenities:hover .popover {
+    display: block;
+}
+.popover h2 {
+    font-size: 16px;
+}
